@@ -1,4 +1,5 @@
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import {
   Row,
   Col,
