@@ -4,7 +4,7 @@ import Product from '../models/productModel.js';
 import asyncHandler from 'express-async-handler';
 
 // @desc fetch all products
-// @route GET /spi/products
+// @route GET /api/products
 // @access Public
 router.get(
   '/',
@@ -15,7 +15,7 @@ router.get(
 );
 
 // @desc fetch single product
-// @route GET /spi/products/:id
+// @route GET /api/products/:id
 // @access Public
 
 router.get(
